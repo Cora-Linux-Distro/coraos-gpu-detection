@@ -16,7 +16,7 @@ jobs:
   build:
     uses: Cora-Linux-Distro/CI-TEMPLATES/.github/workflows/rust-simple.yml@main
     with:
-      binary_name: coraos-gpu-detection
+      binary_name: coraos-gpu-detect
       working_directory: .
       release_name: CoraOS GPU Detector
     secrets: inherit
