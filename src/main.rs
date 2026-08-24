@@ -69,7 +69,7 @@ fn main() {
                 }
                 gpus.push(Gpu {
                     vendor: vendorname.to_string(),
-                    pci_id: vendorid.to_string(),
+                    pci_id: fullid.to_string(),
                     legacy_390: warning_390,
                     legacy_470: warning_470,
                 });
